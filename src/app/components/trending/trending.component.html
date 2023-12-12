@@ -1,0 +1,16 @@
+<div class="video-container">
+    
+    <div class="video-card" *ngFor="let video of listOfVideos">
+      <a href="{{video.videoLink}}">
+      <img src="{{video.thumbnailUrl}}" alt="Video Thumbnail" class="video-thumbnail">
+      <div class="video-info">
+        <div class="video-title">{{video.titre}}</div>
+        <div class="video-channel">{{video.channelTitle}}</div>
+        <diV class="views-date">4M - il y a 1 an</diV>
+      </div>
+      </a>
+    </div>
+
+
+
+  </div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="logo">Yumi .</div>
+    <div class="search-container">
+        <input type="text" [(ngModel)]="valueInserted" class="search-bar" placeholder="Search...">
+        <button class="search-button" (click)="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div>
+
+<div *ngIf="beShowen else showTrending">
+    <app-video-list *ngFor="let result of listOfResults" [video]="result"></app-video-list>
+</div>
+
+
+
+<ng-template #showTrending>
+    <app-trending></app-trending>
+</ng-template>
