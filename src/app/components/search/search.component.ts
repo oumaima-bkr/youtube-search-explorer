@@ -10,7 +10,7 @@ import { SearchService } from "src/app/services/searchService";
   styleUrls: ["search.component.css"]
 })
 export class SearchComponent {
-  beShowen: boolean = true
+  beShowen: boolean = false
   listOfResults: Video[] = [
     new Video(
         1,

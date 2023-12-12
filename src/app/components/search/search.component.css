@@ -4,12 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vw;
+    height: 6vw;
 }
 
 .logo {
     position: absolute;
-    margin-top: 35px;
+    top:35%;
+    margin-bottom: 95px;
     margin-left: 10%;
     font-size: 35px;
     font-family: 'Borel', cursive;

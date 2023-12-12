@@ -28,7 +28,7 @@ import { ServiceTrending } from './services/serviceTrending';
   ],
   providers: [SearchService,
                ServiceTrending,
-              {provide: 'apiKey' ,useValue :"AIzaSyA_t4JRfWELsF-9clsMAqPFYzXm4lZOOkU"},
+              {provide: 'apiKey' ,useValue :"YOUR_KEY"},
               {provide: 'apiUrl' ,useValue :"https://www.googleapis.com/youtube/v3/search"}],
   bootstrap: [AppComponent]
 })
